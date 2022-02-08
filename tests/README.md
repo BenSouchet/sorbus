@@ -1,4 +1,4 @@
-# Tests
+# Tests Tokens Representation
 
 The [Rouge Highlighter](https://github.com/rouge-ruby/rouge) used tokens, it's with them that we can apply CSS to style the HTML output.
 
@@ -11,100 +11,100 @@ The main goal is to determine the following CSS properties:
 - `font-weight` (normal or bold)
 - `font-decoration` (none or underline)
 
-## Tokens tests infomation
+## Tests infomation
 
 Since all tokens isn't used in one single language the tests are written in multiple languages (C++, Python, Ruby, Json, ...).
 
 | Token code | Token name | Test language | Test file |
 |:----------:|:----------:|:-------------:|:---------:|
-| .hll | Highlight Line | Json | [File]() |
-| .w | Text Whitespace | Json | [File]() |
-| .c | Comment | Python | [File]() |
-| .cd | Comment Doc | PHP | [File]() |
-| .ch | Comment Hashbang | Python | [File]() |
-| .cm | Comment Multiline | Python | [File]() |
-| .cp | Comment Preproc | Embedded Ruby | [File]() |
-| .cpf | Comment PreprocFile | C | [File]() |
-| .c1 | Comment Single | CSS | [File]() |
-| .cs | Comment Special | Javadoc | [File]() |
+| .hll | Highlight Line | Json | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/json/hll.json) |
+| .w | Text Whitespace | Json | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/json/w.json) |
+| .c | Comment | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/c.py) |
+| .cd | Comment Doc | PHP | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/php/cd.php) |
+| .ch | Comment Hashbang | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/ch.py) |
+| .cm | Comment Multiline | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/cm.cpp) |
+| .cp | Comment Preproc | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/cp.cpp) |
+| .cpf | Comment PreprocFile | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/cpf.cpp) |
+| .c1 | Comment Single | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/c1.cpp) |
+| .cs | Comment Special | Java | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/java/cs.java) |
 | .g | Generic | ***N/A*** | ***N/A*** |
-| .gd | Generic Deleted | diff | [File]() |
-| .ge | Generic Emph | Markdown | [File]() |
+| .gd | Generic Deleted | diff | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/diff/gd.diff) |
+| .ge | Generic Emph | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/ge.md) |
 | .gr | Generic Error | ***N/A*** | ***N/A*** |
-| .gh | Generic Heading | Markdown | [File]() |
-| .gi | Generic Inserted | diff | [File]() |
+| .gh | Generic Heading | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gh.md) |
+| .gi | Generic Inserted | diff | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/diff/gi.diff) |
 | .go | Generic Output | ***N/A*** | ***N/A*** |
 | .gp | Generic Prompt | ***N/A*** | ***N/A*** |
-| .gs | Generic Strong | Markdown | [File]() |
-| .gu | Generic Subheading | Markdown | [File]() |
+| .gs | Generic Strong | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gs.md) |
+| .gu | Generic Subheading | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gu.md) |
 | .gt | Generic Traceback | ***N/A*** | ***N/A*** |
 | .gl | Generic Lineno | ***N/A*** | ***N/A*** |
 | .k | Keyword | ***N/A*** | ***N/A*** |
-| .kc | Keyword Constant | JavaScript | [File]() |
-| .kd | Keyword Declaration | JavaScript | [File]() |
-| .kn | Keyword Namespace | C++ | [File]() |
-| .kp | Keyword Pseudo | Python | [File]() |
-| .kr | Keyword Reserved | ruby | [File]() |
-| .kt | Keyword Type | C++ | [File]() |
-| .kv | Keyword Variable | JavaScript | [File]() |
+| .kc | Keyword Constant | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kc.js) |
+| .kd | Keyword Declaration | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kd.js) |
+| .kn | Keyword Namespace | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/kn.cpp) |
+| .kp | Keyword Pseudo | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/kp.py) |
+| .kr | Keyword Reserved | ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/kr.rb) |
+| .kt | Keyword Type | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/kt.cpp) |
+| .kv | Keyword Variable | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kv.js) |
 | .l | Literal | ***N/A*** | ***N/A*** |
 | .ld | Literal Date | Visual Basic | [File]() |
-| .s | Literal String | Ruby | [File]() |
-| .sa | Literal String Affix | Python | [File]() |
-| .sb | Literal String Backtick | Ruby | [File]() |
-| .sc | Literal String Char | C++ | [File]() |
-| .dl | Literal String Delimiter | JavaScript | [File]() |
-| .sd | Literal String Doc | Python | [File]() |
-| .s2 | Literal String Double | JavaScript | [File]() |
-| .se | Literal String Escape | JavaScript | [File]() |
-| .sh | Literal String Heredoc | Ruby | [File]() |
-| .si | Literal String Interpol | Ruby | [File]() |
-| .sx | Literal String Other | Ruby | [File]() |
-| .sr | Literal String Regex | Python | [File]() |
-| .s1 | Literal String Single | JavaScript | [File]() |
-| .ss | Literal String Symbol | Ruby | [File]() |
+| .s | Literal String | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/s.rb) |
+| .sa | Literal String Affix | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/sa.py) |
+| .sb | Literal String Backtick | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/sb.rb) |
+| .sc | Literal String Char | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/sc.cpp) |
+| .dl | Literal String Delimiter | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/dl.js) |
+| .sd | Literal String Doc | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/sd.py) |
+| .s2 | Literal String Double | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/s2.js) |
+| .se | Literal String Escape | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/se.js) |
+| .sh | Literal String Heredoc | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/sh.rb) |
+| .si | Literal String Interpol | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/si.rb) |
+| .sx | Literal String Other | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/sx.rb) |
+| .sr | Literal String Regex | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/sr.py) |
+| .s1 | Literal String Single | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/s1.js) |
+| .ss | Literal String Symbol | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/ss.rb) |
 | .m | Literal Number | ***N/A*** | ***N/A*** |
-| .mb | Literal Number Binary | Ruby | [File]() |
-| .mf | Literal Number Float | Python | [File]() |
-| .mh | Literal Number Hexadecimal | Python | [File]() |
-| .mi | Literal Number Integer | C++ | [File]() |
-| .il | Literal Number Integer Long | C++ | [File]() |
-| .mo | Literal Number Octal | Ruby | [File]() |
-| .mx | Literal Number Other | C++ | [File]() |
-| .o | Operator | Python | [File]() |
-| .ow | Operator Word | Python | [File]() |
-| .p | Ponctuation | JavaScript | [File]() |
+| .mb | Literal Number Binary | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/mb.rb) |
+| .mf | Literal Number Float | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/mf.py) |
+| .mh | Literal Number Hexadecimal | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/mh.js) |
+| .mi | Literal Number Integer | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/mi.cpp) |
+| .il | Literal Number Integer Long | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/il.cpp) |
+| .mo | Literal Number Octal | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/mo.rb) |
+| .mx | Literal Number Other | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/mx.cpp) |
+| .o | Operator | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/o.py) |
+| .ow | Operator Word | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/ow.py) |
+| .p | Ponctuation | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/p.js) |
 | .pi | Punctuation Indicator | YAML | [File]() |
 | .n | Name | ***N/A*** | ***N/A*** |
-| .na | Name Attribute | HTML | [File]() |
-| .nb | Name Built-in | CSS | [File]() |
-| .bp | Built-in Pseudo | Ruby | [File]() |
-| .nc | Name Class | C++ | [File]() |
-| .no | Name Constant | CSS | [File]() |
-| .nd | Name Decorator | Python | [File]() |
-| .ni | Name Entity | HTML | [File]() |
-| .ne | Name Exception | Ruby | [File]() |
-| .nf | Name Function | Python | [File]() |
+| .na | Name Attribute | HTML | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/html/na.html) |
+| .nb | Name Built-in | CSS | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/css/nb.css) |
+| .bp | Built-in Pseudo | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/bp.rb) |
+| .nc | Name Class | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/nc.cpp) |
+| .no | Name Constant | CSS | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/css/no.css) |
+| .nd | Name Decorator | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/nd.py) |
+| .ni | Name Entity | HTML | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/html/ni.html) |
+| .ne | Name Exception | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/ne.py) |
+| .nf | Name Function | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/nf.py) |
 | .fm | Name Function Magic | ***N/A*** | ***N/A*** |
-| .py | Name Property | CSS | [File]() |
-| .nl | Name Label | Json | [File]() |
-| .nn | Name Namespace | C++ | [File]() |
+| .py | Name Property | CSS | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/css/py.css) |
+| .nl | Name Label | Json | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/json/nl.json) |
+| .nn | Name Namespace | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/nn.cpp) |
 | .nx | Name Other | ***N/A*** | ***N/A*** |
-| .nt | Name Tag | HTML | [File]() |
-| .nv | Name Variable | JavaScript | [File]() |
-| .vc | Name Variable Class | Ruby | [File]() |
-| .vg | Name Variable Global | Ruby | [File]() |
-| .vi | Name Variable Instance | Ruby | [File]() |
-| .vm | Name Variable Magic | Batch | [File]() |
-| .esc | Escape | C++ | [File]() |
-| .err | Error | python | [File]() |
+| .nt | Name Tag | HTML | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/html/nt.html) |
+| .nv | Name Variable | PHP | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/php/nv.php) |
+| .vc | Name Variable Class | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/vc.rb) |
+| .vg | Name Variable Global | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/vg.rb) |
+| .vi | Name Variable Instance | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/vi.rb) |
+| .vm | Name Variable Magic | Batch | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/batch/vm.bat) |
+| .esc | Escape | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/esc.cpp) |
+| .err | Error | python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/err.py) |
 | .x | Other | ***N/A*** | ***N/A*** |
 
 The list of tokens that Sorbus handle is based on theses links:
  - [Rouge List of tokens](https://github.com/rouge-ruby/rouge/wiki/List-of-tokens)
  - [lib/rouge/token.rb](https://github.com/rouge-ruby/rouge/blob/master/lib/rouge/token.rb)
 
-## Results
+## IDEs Representation
 
 IDEs used:
  - [Visual Studio Code](https://code.visualstudio.com/) (for: *C++*, *HTML*, *CSS*, *Batch*, *JavaScript*, *YAML*, *diff*, *JSON* and *Visual Basic*)
