@@ -107,11 +107,11 @@ The list of tokens that Sorbus handle is based on theses links:
 ## Results
 
 IDEs used:
- - Visual Studio Code (for: *C++*, *HTML*, *CSS*, *Batch*, *JavaScript*, *YAML*, *diff*, *JSON* and *Visual Basic*)
- - PhpStorm (for: *PHP*)
- - PyCharm (for: *Python*)
- - RubyMine (for; *Ruby*)
- - Github (for: *Markdown*)
+ - [Visual Studio Code](https://code.visualstudio.com/) (for: *C++*, *HTML*, *CSS*, *Batch*, *JavaScript*, *YAML*, *diff*, *JSON* and *Visual Basic*)
+ - [PhpStorm](https://www.jetbrains.com/phpstorm/) (for: *PHP*)
+ - [PyCharm](https://www.jetbrains.com/pycharm/) (for: *Python*)
+ - [RubyMine](https://www.jetbrains.com/ruby/) (for; *Ruby*)
+ - [Github](https://github.com/) (for: *Markdown*)
 
 | Token code | Visual representation |
 |:----------:|:---------------------:|
