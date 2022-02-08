@@ -1,0 +1,104 @@
+/*! Sorbus v0.1 - Rouge Highlighter Auto-Theme | Copyright(C) 2022 Ben Souchet | MIT License */
+// Project page: https://github.com/BenSouchet/sorbus
+
+// List of Rouge Highlighter tokens from :
+// - https://github.com/rouge-ruby/rouge/blob/master/lib/rouge/token.rb
+// - https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
+
+// Highlight Block
+.highlight {
+    background: #000;
+    color: $base;
+    .hll { color: $base; }// Highlighted Line(s)
+    // Text
+    .w {   color: $base; }// Text Whitespace
+    // Comment
+    .c {   color: $base; }// Comment
+    .cd {  color: $base; }// Comment Doc
+    .ch {  color: $base; }// Comment Hashbang
+    .cm {  color: $base; }// Comment Multiline
+    .cp {  color: $base; }// Comment Preproc
+    .cpf { color: $base; }// Comment PreprocFile
+    .c1 {  color: $base; }// Comment Single
+    .cs {  color: $base; }// Comment Special
+    // Generic
+    .g {   color: $base; }// Generic
+    .gd {  color: $base; }// Generic Deleted
+    .ge {  color: $base; }// Generic Emph
+    .gr {  text-decoration: wavy underline red; text-underline-offset: 0.1em; }// Generic Error
+    .gh {  color: $base; }// Generic Heading
+    .gi {  color: $base; }// Generic Inserted
+    .go {  color: $base; }// Generic Output
+    .gp {  color: $base; }// Generic Prompt
+    .gs {  color: $base; font-weight: bold; }// Generic Strong
+    .gu {  color: $base; }// Generic Subheading
+    .gt {  color: $base; }// Generic Traceback
+    .gl {  color: $base; }// Generic Lineno
+    // Keyword
+    .k {   color: $base; }// Keyword
+    .kc {  color: $base; }// Keyword Constant
+    .kd {  color: $base; }// Keyword Declaration
+    .kn {  color: $base; }// Keyword Namespace
+    .kp {  color: $base; }// Keyword Pseudo
+    .kr {  color: $base; }// Keyword Reserved
+    .kt {  color: $base; }// Keyword Type
+    .kv {  color: $base; }// Keyword Variable
+    // Literal
+    .l {   color: $base; }// Literal
+    .ld {  color: $base; }// Literal Date
+    .s {   color: $base; }// Literal String
+    .sa {  color: $base; }// Literal String Affix
+    .sb {  color: $base; }// Literal String Backtick
+    .sc {  color: $base; }// Literal String Char
+    .dl {  color: $base; }// Literal String Delimiter
+    .sd {  color: $base; }// Literal String Doc
+    .s2 {  color: $base; }// Literal String Double
+    .se {  color: $base; }// Literal String Escape
+    .sh {  color: $base; }// Literal String Heredoc
+    .si {  color: $base; }// Literal String Interpol
+    .sx {  color: $base; }// Literal String Other
+    .sr {  color: $base; }// Literal String Regex
+    .s1 {  color: $base; }// Literal String Single
+    .ss {  color: $base; }// Literal String Symbol
+    .m {   color: $base; }// Literal Number
+    .mb {  color: $base; }// Literal Number Binary
+    .mf {  color: $base; }// Literal Number Float
+    .mh {  color: $base; }// Literal Number Hexadecimal
+    .mi {  color: $base; }// Literal Number Integer
+    .il {  color: $base; }// Literal Number Integer Long
+    .mo {  color: $base; }// Literal Number Octal
+    .mx {  color: $base; }// Literal Number Other
+    // Operator
+    .o {   color: $base; }// Operator
+    .ow {  color: $base; }// Operator Word
+    // Ponctuation
+    .p {   color: $base; }// Ponctuation
+    .pi {  color: $base; }// Ponctuation Indicator
+    // Name
+    .n {   color: $base; }// Name
+    .na {  color: $base; }// Name Attribute
+    .nb {  color: $base; }// Name Built-in
+    .bp {  color: $base; }// Built-in Pseudo
+    .nc {  color: $base; }// Name Class
+    .no {  color: $base; }// Name Constant
+    .nd {  color: $base; }// Name Decorator
+    .ni {  color: $base; }// Name Entity
+    .ne {  color: $base; font-weight: bold; }// Name Exception
+    .nf {  color: $base; }// Name Function
+    .fm {  color: $base; }// Name Function Magic
+    .py {  color: $base; }// Name Property
+    .nl {  color: $base; }// Name Label
+    .nn {  color: $base; }// Name Namespace
+    .nx {  color: $base; }// Name Other
+    .nt {  color: $base; }// Name Tag
+    // Variable
+    .nv {  color: $base; }// Name Variable
+    .vc {  color: $base; }// Name Variable Class
+    .vg {  color: $base; }// Name Variable Global
+    .vi {  color: $base; }// Name Variable Instance
+    .vm {  color: $base; }// Name Variable Magic
+    // Other
+    .esc { color: $base; }// Escape
+    .err { text-decoration: wavy underline red; text-underline-offset: 0.1em; }// Error
+    .x {   color: $base; }// Other
+}

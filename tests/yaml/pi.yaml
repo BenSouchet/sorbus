@@ -1,0 +1,8 @@
+# Rouge Highlighter token test - Punctuation Indicator
+test:
+  person1:
+    age: 22
+    sex: M
+  person2:
+    age: 24
+    sex: F

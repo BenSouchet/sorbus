@@ -1,12 +1,12 @@
-# Sorbus (⚠️ WIP)
-Sorbus is a SCSS Rouge Highlighter Auto-Theme using [base16 palettes](https://github.com/chriskempson/base16).
+# Sorbus
+Sorbus is a SCSS [Rouge Higlighter](https://github.com/rouge-ruby/rouge) Auto-Theme using [base16 palettes](https://github.com/chriskempson/base16).
 
-Easily create a full [Rouge Higlighter](https://github.com/rouge-ruby/rouge) SCSS Theme by only defining only 16 colors!
+Easily create a full Rouge Higlighter SCSS Theme by only defining only 16 colors!
 
 ## How to use
 
-1. Copy the `Highlighter/` folder in you project SCSS directory
-2. Import (in your main SCSS file) the color palette you want tu use, followed by an import to the sorbus file:
+1. Copy the `highlighter/` folder in you project SCSS directory
+2. In your main SCSS file, import the color palette you want tu use, followed by an import to the sorbus file:
 ```scss
 /// In this example we use the Solarized Dark color palette
 @import "highlighter/base16/solarized-dark";
@@ -14,16 +14,9 @@ Easily create a full [Rouge Higlighter](https://github.com/rouge-ruby/rouge) SCS
 ```
 If you don't import a color palette the default one (`rowan.scss`) will be used automatically.
 
-## Create you own color palette
-
-1. After you copied the `Highlighter/` folder in you project SCSS directory, go to the subfolder `base16/`
-2. Copy an existing color palette file and rename it to your preference
-3. Open the file and edit the color HEX values
-4. In your main SCSS file change the color palette you import by the name of the new color palette you created
-
 ## Included color palettes
 
-To avoid you copy unused data to your project, by design Sorbus in shipped with only 4 color palettes:
+To avoid copy of unused data to your project, by design Sorbus in shipped with only 4 color palettes:
 | Rowan | Monokai | Solarized | Solarized Dark |
 |:-----:|:-------:|:---------:|:--------------:|
 |       |         |           |                |
@@ -33,6 +26,13 @@ Rowan is the default color palette, this means that if you avoid (or forget) to 
 ## More color palettes
 
 In the `palettes/` folder at the root if this repository you will find lots of cool **base16** color palettes you can use.
+
+## Create you own color palette
+
+1. After you copied the `highlighter/` folder in you project SCSS directory, go to the subfolder `base16/`
+2. Copy an existing color palette file and rename it to your preference
+3. Open the file and edit the color HEX values
+4. In your main SCSS file change the color palette you import by the name of the new color palette you created
 
 ## Origin of Sorbus
 
