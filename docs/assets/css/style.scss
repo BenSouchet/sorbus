@@ -5,13 +5,49 @@
 
 .inner {
   max-width: 1000px;
+  padding: 40px;
 }
 
 #header_wrap {
-  background: #3e4046;
-  background: linear-gradient(180deg, #373940, #3e4046);
+  background: #721919;
+  background: linear-gradient(180deg, #000000, #721919);
+}
+
+#header_wrap .inner {
+  padding: 40px;
+  background: #1c0a0a;
+  background: linear-gradient(180deg, #1c0a0a, #9d1d1d);
 }
 
 #main_content_wrap {
-  background-color: #212327;
+  background-color: #e1e1e1;
+  border: none;
+}
+#main_content {
+	padding: 40px;
+	background-color: #f3f3f3;
+}
+
+#forkme_banner {
+  right: 30px;
+  background: url("../images/blacktocat.png") #bb1b1b no-repeat 95% 50%;
+  border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#downloads {
+  right: 20px;
+  background: url(../images/icon_download.png) #f3f3f3 no-repeat 0% 90%;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding: 14px 14px 0 0;
+}
+
+#footer_wrap {
+	background: #1c1c1c;
+}
+
+footer.inner {
+  padding: 10px 40px;
+  background-color: #262626;
 }
