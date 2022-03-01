@@ -1,0 +1,230 @@
+/*! Sorbus v0.1 - Rouge Highlighter Auto-Theme | Copyright(C) 2022 Ben Souchet | MIT License */
+// Project page: https://github.com/BenSouchet/sorbus
+
+// List of Rouge Highlighter tokens from :
+// - https://github.com/rouge-ruby/rouge/blob/master/lib/rouge/token.rb
+// - https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
+
+// Importing default palette
+@import "base16/rowan";
+
+// Highlight Block
+.highlight {
+    background: $base00;
+    color: $base05;
+
+    // Highlighted Line(s)
+    .hll { background-color: $base02; }
+
+    // ----
+    // TEXT
+    // ----
+
+    // Text Whitespace
+    .w {   color: inherit; }
+
+    // -------
+    // COMMENT
+    // -------
+
+    // Comment
+    .c {   color: $base03; font-style: italic; }
+    // Comment Doc
+    .cd {  color: $base03; font-style: italic; }
+    // Comment Hashbang
+    .ch {  color: $base03; font-style: italic; }
+    // Comment Multiline
+    .cm {  color: $base03; font-style: italic; }
+    // Comment Preproc
+    .cp {  color: $base0B; }
+    // Comment PreprocFile
+    .cpf { color: $base0C; }
+    // Comment Single
+    .c1 {  color: $base03; font-style: italic; }
+    // Comment Special
+    .cs {  color: $base0D; font-style: italic; font-weight: bold; }
+
+    // -------
+    // GENERIC
+    // -------
+
+    // Generic
+    .g {   color: $base05; }
+    // Generic Deleted
+    .gd {  color: $base08; background-color: $base01; }
+    // Generic Emph
+    .ge {  color: inherit; font-style: italic; }
+    // Generic Error
+    .gr {  color: inherit; text-decoration: wavy underline $base08; text-underline-offset: 0.1em; }
+    // Generic Heading
+    .gh {  color: inherit; font-weight: bold; font-size: 2em; }
+    // Generic Inserted
+    .gi {  color: $base0B; background-color: $base01; }
+    // Generic Output
+    .go {  color: inherit; }
+    // Generic Prompt
+    .gp {  color: inherit; }
+    // Generic Strong
+    .gs {  color: inherit; font-weight: bold; }
+    // Generic Subheading
+    .gu {  color: inherit; font-weight: bold; font-size: 1.5em; }
+    // Generic Traceback
+    .gt {  color: inherit; }
+    // Generic Lineno
+    .gl {  color: $base04; }
+
+    // -------
+    // KEYWORD
+    // -------
+
+    // Keyword
+    .k {   color: $base0B; }
+    // Keyword Constant
+    .kc {  color: $base0A; }
+    // Keyword Declaration
+    .kd {  color: $base04; font-weight: bold; }
+    // Keyword Namespace
+    .kn {  color: $base04; font-weight: bold; }
+    // Keyword Pseudo
+    .kp {  color: $base0A; }
+    // Keyword Reserved
+    .kr {  color: $base0A; }
+    // Keyword Type
+    .kt {  color: $base04; font-weight: bold; }
+    // Keyword Variable
+    .kv {  color: $base04; font-weight: bold; }
+
+    // -------
+    // LITERAL
+    // -------
+
+    // Literal
+    .l {   color: $base0C; }
+    // Literal Date
+    .ld {  color: $base0C; }
+    // Literal String
+    .s {   color: $base0C; }
+    // Literal String Affix
+    .sa {  color: $base0B; }
+    // Literal String Backtick
+    .sb {  color: $base0C; }
+    // Literal String Char
+    .sc {  color: $base0C; }
+    // Literal String Delimiter
+    .dl {  color: $base0C; }
+    // Literal String Doc
+    .sd {  color: $base03; font-style: italic; }
+    // Literal String Double
+    .s2 {  color: $base0C; }
+    // Literal String Escape
+    .se {  color: $base09; }
+    // Literal String Heredoc
+    .sh {  color: $base0D; font-weight: bold; }
+    // Literal String Interpol
+    .si {  color: $base08; }
+    // Literal String Other
+    .sx {  color: $base09; }
+    // Literal String Regex
+    .sr {  color: $base08; }
+    // Literal String Single
+    .s1 {  color: $base0C; }
+    // Literal String Symbol
+    .ss {  color: $base0A; }
+    // Literal Number
+    .m {   color: $base0F; }
+    // Literal Number Binary
+    .mb {  color: $base0F; }
+    // Literal Number Float
+    .mf {  color: $base0F; }
+    // Literal Number Hexadecimal
+    .mh {  color: $base0F; }
+    // Literal Number Integer
+    .mi {  color: $base0F; }
+    // Literal Number Integer Long
+    .il {  color: $base0F; }
+    // Literal Number Octal
+    .mo {  color: $base0F; }
+    // Literal Number Other
+    .mx {  color: $base0F; }
+
+    // --------
+    // OPERATOR
+    // --------
+
+    // Operator
+    .o {   color: $base0B; }
+    // Operator Word
+    .ow {  color: $base0B; }
+
+    // -----------
+    // PONCTUATION
+    // -----------
+
+    // Ponctuation
+    .p {   color: $base05; }
+    // Ponctuation Indicator
+    .pi {  color: $base05; }
+
+    // ----
+    // NAME
+    // ----
+
+    // Name
+    .n {   color: $base05; }
+    // Name Attribute
+    .na {  color: $base0D; font-style: italic; }
+    // Name Built-in
+    .nb {  color: $base0E; }
+    // Built-in Pseudo
+    .bp {  color: $base0A; }
+    // Name Class
+    .nc {  color: $base0E; }
+    // Name Constant
+    .no {  color: $base0A; }
+    // Name Decorator
+    .nd {  color: $base0E; }
+    // Name Entity
+    .ni {  color: $base09; }
+    // Name Exception
+    .ne {  color: $base0E; font-style: italic; font-weight: bold; }
+    // Name Function
+    .nf {  color: $base0E; }
+    // Name Function Magic
+    .fm {  color: $base0B; }
+    // Name Property
+    .py {  color: $base0B; }
+    // Name Label
+    .nl {  color: $base0B; }
+    // Name Namespace
+    .nn {  color: $base0E; }
+    // Name Other
+    .nx {  color: $base09; }
+    // Name Tag
+    .nt {  color: $base0D; }
+
+    // --------
+    // VARIABLE
+    // --------
+
+    // Name Variable
+    .nv {  color: $base0D; }
+    // Name Variable Class
+    .vc {  color: $base0D; font-style: italic; }
+    // Name Variable Global
+    .vg {  color: $base0D; }
+    // Name Variable Instance
+    .vi {  color: $base0D; }
+    // Name Variable Magic
+    .vm {  color: $base0D; }
+
+    // -----
+    // OTHER
+    // -----
+
+    // Escape
+    .esc { color: $base09; }
+    // Error
+    .err { text-decoration: wavy underline $base08; text-underline-offset: 0.1em; }
+    // Other
+    .x {   color: $base05; }
+}
