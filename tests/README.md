@@ -148,7 +148,7 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .kc | <img width="336" alt="Result image of token Keyword Constant" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/kc.png"> |
 | .kd | <img width="336" alt="Result image of token Keyword Declaration" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/kd.png"> |
 | .kn | <img width="336" alt="Result image of token Keyword Namespace" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/kn.png"> |
-| .kp | <img width="336" alt="Result image of token Keyword Pseudo" src=""> |
+| .kp | <img width="336" alt="Result image of token Keyword Pseudo" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/kp.png"> |
 | .kr | <img width="336" alt="Result image of token Keyword Reserved" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/kr.png"> |
 | .kt | <img width="336" alt="Result image of token Keyword Type" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/kt.png"> |
 | .kv | ***N/A*** |
