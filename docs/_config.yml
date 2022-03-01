@@ -1,3 +1,10 @@
 theme: jekyll-theme-slate
 title: Sorbus
 description: SCSS Auto-Theme for the Rouge Higlighter (using base16 palettes).
+show_downloads: true
+License:
+  name: MIT
+  url: https://github.com/BenSouchet/sorbus/blob/main/LICENSE
+maintainers:
+  - name: Ben Souchet
+    url: https://github.com/BenSouchet
