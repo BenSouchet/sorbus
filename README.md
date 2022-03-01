@@ -1,7 +1,7 @@
 # Sorbus
-Sorbus is a SCSS [Rouge Higlighter](https://github.com/rouge-ruby/rouge) Auto-Theme using [base16 palettes](https://github.com/chriskempson/base16).
+Sorbus is a SCSS Auto-Theme using [base16 palettes](https://github.com/chriskempson/base16) for the [Rouge Higlighter](https://github.com/rouge-ruby/rouge).
 
-Easily create a full Rouge Higlighter SCSS Theme by only defining only 16 colors!
+Easily create a full Rouge Higlighter SCSS Theme by only defining 16 colors!
 
 ## How to use
 
