@@ -46,7 +46,7 @@ Since all tokens isn't used in one single language the tests are written in mult
 | .kp | Keyword Pseudo | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/kp.py) |
 | .kr | Keyword Reserved | ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/kr.rb) |
 | .kt | Keyword Type | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/kt.cpp) |
-| .kv | Keyword Variable | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kv.js) |
+| .kv | Keyword Variable | ***N/A*** | ***N/A*** |
 | .l | Literal | ***N/A*** | ***N/A*** |
 | .ld | Literal Date | Visual Basic | [File]() |
 | .s | Literal String | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/s.rb) |
@@ -107,11 +107,18 @@ The list of tokens that Sorbus handle is based on theses links:
 ## IDEs Representation
 
 IDEs used:
- - [Visual Studio Code](https://code.visualstudio.com/) (for: *C++*, *HTML*, *CSS*, *Batch*, *JavaScript*, *YAML*, *diff*, *JSON* and *Visual Basic*)
+ - [CLion](https://www.jetbrains.com/clion) (for: *C++*)
+ - [Github](https://github.com/) (for: *Markdown*)
+ - [IntelliJ IDEA](https://www.jetbrains.com/idea)  (for: *Java*)
  - [PhpStorm](https://www.jetbrains.com/phpstorm/) (for: *PHP*)
  - [PyCharm](https://www.jetbrains.com/pycharm/) (for: *Python*)
- - [RubyMine](https://www.jetbrains.com/ruby/) (for; *Ruby*)
- - [Github](https://github.com/) (for: *Markdown*)
+ - [RubyMine](https://www.jetbrains.com/ruby/) (for: *Ruby*)
+ - [Visual Studio Code](https://code.visualstudio.com/) (for: *Batch*, *YAML*, *diff*, *JSON* and *Visual Basic*)
+ - [WebStorm](https://www.jetbrains.com/webstorm) (for: *HTML*, *CSS*, *JavaScript*)
+
+Theme used: [**Monokai Pro**](https://monokai.pro/)
+
+/!\ Diclaimer: Project not affiliate (or sponsored) by any brand (nor Jetbrains, VS Code, Monokai, ...). Simply for the best setup using an IDE designed for the corresponding language is way more accurate.
 
 | Token code | Visual representation |
 |:----------:|:---------------------:|
@@ -144,7 +151,7 @@ IDEs used:
 | .kp |  |
 | .kr |  |
 | .kt |  |
-| .kv |  |
+| .kv | ***N/A*** |
 | .l | ***N/A*** |
 | .ld |  |
 | .s |  |
@@ -317,7 +324,7 @@ test = None
 In the example below, the token is the reserved keyword `end`
 ```ruby
 def test
-  puts "Test"
+  puts 'Test'
 end
 ```
 ### `.kt` Keyword Type (C++)
@@ -326,10 +333,7 @@ In the example below, the token is the type of the variable `int`
 int test = 42;
 ```
 ### `.kv` Keyword Variable (JavaScript)
-In the example below, the token is the function name `test`
-```javascript
-function test() { return true; }
-```
+*Currently no test available*
 ### `.l` Literal (***N/A***)
 *Currently no test available*
 ### `.ld` Literal Date (Visual Basic)
@@ -394,7 +398,7 @@ HEREDOC
 ### `.si` Literal String Interpol (Ruby)
 In the example below, the token is the interpolated string part `#{name}`
 ```ruby
-name = "Test"
+name = 'Test'
 puts "Hello, #{name}!"
 ```
 ### `.sx` Literal String Other (Ruby)
@@ -499,7 +503,7 @@ In the example below, the token is the keyword `self`
 ```ruby
 class Test
   def self.print_test
-    puts "test"
+    puts 'test'
   end
 end
 ```
@@ -596,7 +600,7 @@ $LOAD_PATH.uniq!
 In the example below, the token is instance variable `@name`
 ```ruby
 class Person
-  @name = "Test"
+  @name = 'Test'
 end
 ```
 ### `.vm` Name Variable Magic (Batch)
