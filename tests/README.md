@@ -124,9 +124,9 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 |:----------:|:---------------------:|
 | .hll | <img width="336" alt="Result image of token Highlight Line" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/json/vscode/hll.png"> |
 | .w | <img width="336" alt="Result image of token Text Whitespace" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/json/vscode/w.png"> |
-| .c | <img width="336" alt="Result image of token Comment" src=""> |
+| .c | <img width="336" alt="Result image of token Comment" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/c.png"> |
 | .cd | <img width="336" alt="Result image of token Comment Doc" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/php/phpstorm/cd.png"> |
-| .ch | <img width="336" alt="Result image of token Comment Hashbang" src=""> |
+| .ch | <img width="336" alt="Result image of token Comment Hashbang" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/ch.png"> |
 | .cm | <img width="336" alt="Result image of token Comment Multiline" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/cm.png"> |
 | .cp | <img width="336" alt="Result image of token Comment Preproc" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/cp.png"> |
 | .cpf | <img width="336" alt="Result image of token Comment PreprocFile" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/cpf.png"> |
@@ -155,29 +155,29 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .l | ***N/A*** |
 | .ld | <img width="336" alt="Result image of token Literal Date" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/visualbasic/vscode/ld.png"> |
 | .s | <img width="336" alt="Result image of token Literal String" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/s.png"> |
-| .sa | <img width="336" alt="Result image of token Literal String Affix" src=""> |
+| .sa | <img width="336" alt="Result image of token Literal String Affix" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/sa.png"> |
 | .sb | <img width="336" alt="Result image of token Literal String Backtick" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/sb.png"> |
 | .sc | <img width="336" alt="Result image of token Literal String Char" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/sc.png"> |
 | .dl | <img width="336" alt="Result image of token Literal String Delimiter" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/dl.png"> |
-| .sd | <img width="336" alt="Result image of token Literal String Doc" src=""> |
+| .sd | <img width="336" alt="Result image of token Literal String Doc" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/sd.png"> |
 | .s2 | <img width="336" alt="Result image of token Literal String Double" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/s2.png"> |
 | .se | <img width="336" alt="Result image of token Literal String Escape" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/se.png"> |
 | .sh | <img width="336" alt="Result image of token Literal String Heredoc" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/sh.png"> |
 | .si | <img width="336" alt="Result image of token Literal String Interpolation" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/si.png"> |
 | .sx | <img width="336" alt="Result image of token Literal String Other" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/sx.png"> |
-| .sr | <img width="336" alt="Result image of token Literal String Regex" src=""> |
+| .sr | <img width="336" alt="Result image of token Literal String Regex" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/sr.png"> |
 | .s1 | <img width="336" alt="Result image of token Literal String Single" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/s1.png"> |
 | .ss | <img width="336" alt="Result image of token Literal String Symbol" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/ss.png"> |
 | .m | ***N/A*** |
 | .mb | <img width="336" alt="Result image of token Literal Number Binary" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/mb.png"> |
-| .mf | <img width="336" alt="Result image of token Literal Number Float" src=""> |
+| .mf | <img width="336" alt="Result image of token Literal Number Float" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/mf.png"> |
 | .mh | <img width="336" alt="Result image of token Literal Number Hexadecimal" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/mh.png"> |
 | .mi | <img width="336" alt="Result image of token Literal Number Integer" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/mi.png"> |
 | .il | <img width="336" alt="Result image of token Literal Number Integer Long" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/il.png"> |
 | .mo | <img width="336" alt="Result image of token Literal Number Octal" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/mo.png"> |
 | .mx | <img width="336" alt="Result image of token Literal Number Other" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/mx.png"> |
-| .o | <img width="336" alt="Result image of token Operator" src=""> |
-| .ow | <img width="336" alt="Result image of token Operator Word" src=""> |
+| .o | <img width="336" alt="Result image of token Operator" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/o.png"> |
+| .ow | <img width="336" alt="Result image of token Operator Word" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/ow.png"> |
 | .p | <img width="336" alt="Result image of token Ponctuation" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/p.png"> |
 | .pi | <img width="336" alt="Result image of token Punctuation Indicator" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/yaml/vscode/pi.png"> |
 | .n | ***N/A*** |
@@ -186,10 +186,10 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .bp | <img width="336" alt="Result image of token Built-in Pseudo" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/bp.png"> |
 | .nc | <img width="336" alt="Result image of token Name Class" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/nc.png"> |
 | .no | <img width="336" alt="Result image of token Name Constant" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/css/webstorm/no.png"> |
-| .nd | <img width="336" alt="Result image of token Name Decorator" src=""> |
+| .nd | <img width="336" alt="Result image of token Name Decorator" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/nd.png"> |
 | .ni | <img width="336" alt="Result image of token Name Entity" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/html/webstorm/ni.png"> |
-| .ne | <img width="336" alt="Result image of token Name Exception" src=""> |
-| .nf | <img width="336" alt="Result image of token Name Function" src=""> |
+| .ne | <img width="336" alt="Result image of token Name Exception" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/ne.png"> |
+| .nf | <img width="336" alt="Result image of token Name Function" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/nf.png"> |
 | .fm | ***N/A*** |
 | .py | <img width="336" alt="Result image of token Name Property" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/css/webstorm/py.png"> |
 | .nl | <img width="336" alt="Result image of token Name Label" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/json/vscode/nl.png"> |
@@ -202,7 +202,7 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .vi | <img width="336" alt="Result image of token Name Variable Instance" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/vi.png"> |
 | .vm | <img width="336" alt="Result image of token Name Variable Magic" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/batch/vscode/vm.png"> |
 | .esc | <img width="336" alt="Result image of token Escape" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/esc.png"> |
-| .err | <img width="336" alt="Result image of token Error" src=""> |
+| .err | <img width="336" alt="Result image of token Error" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/err.png"> |
 | .x | ***N/A*** |
 
 # Github Representation
