@@ -4,7 +4,7 @@ The [Rouge Highlighter](https://github.com/rouge-ruby/rouge) used tokens, it's w
 
 Since Sorbus set the CSS properties for the Rouge tokens, it's important to know why each CSS property is applied to each token.
 
-To determine the best CSS properties for the tokens the idea is to "test" tokens in an IDE, in others words create files correponding to the tokens (one file per token) and check how it's rendered in the best corresponding IDE.
+To determine the best CSS properties for the tokens the idea is to "test" tokens in IDEs, in others words create files correponding to the tokens (one file per token) and check how it's rendered in the best corresponding IDE.
 
 The main goal is to determine the following CSS properties:
 - `font-style` (normal or italic)
@@ -13,7 +13,7 @@ The main goal is to determine the following CSS properties:
 
 ## Tests infomation
 
-Since all tokens isn't used in one single language the tests are written in multiple languages (C++, Python, Ruby, Json, ...).
+Since all tokens isn't used in one single language, the tests are written in multiple languages (C++, Python, Ruby, Json, ...).
 
 | Token code | Token name | Test language | Test file |
 |:----------:|:----------:|:-------------:|:---------:|
@@ -27,18 +27,18 @@ Since all tokens isn't used in one single language the tests are written in mult
 | .cpf | Comment PreprocFile | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/cpf.cpp) |
 | .c1 | Comment Single | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/c1.cpp) |
 | .cs | Comment Special | Java | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/java/cs.java) |
-| .g | Generic | ***N/A*** | ***N/A*** |
+| .g | Generic | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/g.md) |
 | .gd | Generic Deleted | diff | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/diff/gd.diff) |
 | .ge | Generic Emph | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/ge.md) |
-| .gr | Generic Error | ***N/A*** | ***N/A*** |
+| .gr | Generic Error | --- | See `.err` token |
 | .gh | Generic Heading | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gh.md) |
 | .gi | Generic Inserted | diff | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/diff/gi.diff) |
-| .go | Generic Output | ***N/A*** | ***N/A*** |
-| .gp | Generic Prompt | ***N/A*** | ***N/A*** |
+| .go | Generic Output | --- | Same as `.g` |
+| .gp | Generic Prompt | --- | Same as `.g` |
 | .gs | Generic Strong | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gs.md) |
 | .gu | Generic Subheading | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gu.md) |
-| .gt | Generic Traceback | ***N/A*** | ***N/A*** |
-| .gl | Generic Lineno | ***N/A*** | ***N/A*** |
+| .gt | Generic Traceback | --- | [Check token representation](https://github.com/BenSouchet/sorbus/tree/main/tests#ides-representation) |
+| .gl | Generic Lineno | --- | [Check token representation](https://github.com/BenSouchet/sorbus/tree/main/tests#ides-representation) |
 | .k | Keyword | ***N/A*** | ***N/A*** |
 | .kc | Keyword Constant | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kc.js) |
 | .kd | Keyword Declaration | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kd.js) |
@@ -85,11 +85,11 @@ Since all tokens isn't used in one single language the tests are written in mult
 | .ni | Name Entity | HTML | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/html/ni.html) |
 | .ne | Name Exception | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/ne.py) |
 | .nf | Name Function | Python | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/python/nf.py) |
-| .fm | Name Function Magic | ***N/A*** | ***N/A*** |
+| .fm | Name Function Magic | --- | ***Minor usage in Rouge*** |
 | .py | Name Property | CSS | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/css/py.css) |
 | .nl | Name Label | Json | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/json/nl.json) |
 | .nn | Name Namespace | C++ | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/cpp/nn.cpp) |
-| .nx | Name Other | ***N/A*** | ***N/A*** |
+| .nx | Name Other | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/nx.js) |
 | .nt | Name Tag | HTML | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/html/nt.html) |
 | .nv | Name Variable | PHP | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/php/nv.php) |
 | .vc | Name Variable Class | Ruby | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/ruby/vc.rb) |
@@ -118,7 +118,8 @@ IDEs used:
 
 Theme used: [**Monokai Pro**](https://monokai.pro/)
 
-/!\ Diclaimer: Project not affiliate (or sponsored) by any brand (nor Jetbrains, VS Code, Monokai, ...). Simply for the best setup using an IDE designed for the corresponding language is way more accurate.
+**/!\ Disclaimer**: Project not affiliate (or sponsored) by any brand (nor Jetbrains, VS Code, Monokai Pro, ...).  
+Simply for best results using an IDE designed for the corresponding language is way more accurate.
 
 | Token code | Visual representation |
 |:----------:|:---------------------:|
@@ -132,18 +133,15 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .cpf | <img width="336" alt="Result image of token Comment PreprocFile" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/cpf.png"> |
 | .c1 | <img width="336" alt="Result image of token Comment Single" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/c1.png"> |
 | .cs | <img width="336" alt="Result image of token Comment Special" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/java/intellijidea/cs.png"> |
-| .g | ***N/A*** |
+| .g | <img width="336" alt="Result image of token Generic" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/g.png"> |
 | .gd | <img width="336" alt="Result image of token Generic Deleted" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/diff/vscode/gd.png"> |
 | .ge | <img width="336" alt="Result image of token Generic Emph" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/ge.png"> |
-| .gr | ***N/A*** |
 | .gh | <img width="336" alt="Result image of token Generic Heading" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/gh.png"> |
 | .gi | <img width="336" alt="Result image of token Generic Inserted" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/diff/vscode/gi.png"> |
-| .go | ***N/A*** |
-| .gp | ***N/A*** |
 | .gs | <img width="336" alt="Result image of token Generic Strong" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/gs.png"> |
 | .gu | <img width="336" alt="Result image of token Generic Subheading" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/gu.png"> |
-| .gt | ***N/A*** |
-| .gl | ***N/A*** |
+| .gt | <img width="336" alt="Result image of token Generic Traceback" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/gt.png"> |
+| .gl | <img width="336" alt="Result image of token Generic Lineno" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/generic/webstorm/gl.png"> |
 | .k | ***N/A*** |
 | .kc | <img width="336" alt="Result image of token Keyword Constant" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/kc.png"> |
 | .kd | <img width="336" alt="Result image of token Keyword Declaration" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/kd.png"> |
@@ -190,11 +188,10 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .ni | <img width="336" alt="Result image of token Name Entity" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/html/webstorm/ni.png"> |
 | .ne | <img width="336" alt="Result image of token Name Exception" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/ne.png"> |
 | .nf | <img width="336" alt="Result image of token Name Function" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/python/pycharm/nf.png"> |
-| .fm | ***N/A*** |
 | .py | <img width="336" alt="Result image of token Name Property" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/css/webstorm/py.png"> |
 | .nl | <img width="336" alt="Result image of token Name Label" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/json/vscode/nl.png"> |
 | .nn | <img width="336" alt="Result image of token Name Namespace" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/cpp/clion/nn.png"> |
-| .nx | ***N/A*** |
+| .nx | <img width="336" alt="Result image of token Name Other" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/javascript/webstorm/nx.png">|
 | .nt | <img width="336" alt="Result image of token Name Tag" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/html/webstorm/nt.png"> |
 | .nv | <img width="336" alt="Result image of token Name Variable" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/php/phpstorm/nv.png"> |
 | .vc | <img width="336" alt="Result image of token Name Variable Class" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/ruby/mineruby/vc.png"> |
@@ -275,8 +272,6 @@ In the example below, the token is the whole line
 ### `.ge` Generic Emph (Markdown)
 In the example below, the token is the word `*test*` (normally rendered in italic)  
 *Test*
-### `.gr` Generic Error (***N/A***)
-*Currently no test available*
 ### `.gh` Generic Heading (Markdown)
 # Test
 ### `.gi` Generic Inserted (diff)
@@ -284,10 +279,6 @@ In the example below, the token is the whole line
 ```diff
 + This is a long line to properly see the style.
 ```
-### `.go` Generic Output (***N/A***)
-*Currently no test available*
-### `.gp` Generic Prompt (***N/A***)
-*Currently no test available*
 ### `.gs` Generic Strong (Markdown)
 In the example below, the token is the word `**test**` (normally rendered in bold)  
 **Test**
@@ -295,7 +286,15 @@ In the example below, the token is the word `**test**` (normally rendered in bol
 In the example below, the token is the header `**test**` (normally rendered in bold, with big font-size)
 ## Test
 ### `.gt` Generic Traceback (***N/A***)
-*Currently no test available*
+In the example below, the whole text is the token
+```text
+Traceback (most recent call last):
+  File "/path/to/example.py", line 4, in <module>
+    test()
+  File "/path/to/example.py", line 2, in test
+    print(unknown_test_var)
+NameError: name 'unknown_test_var' is not defined
+```
 ### `.gl` Generic Lineno (***N/A***)
 *Currently no test available*
 ### `.k` Keyword (***N/A***)
@@ -551,8 +550,8 @@ In the example below, the token is the function name `test`
 def test():
     return True
 ```
-### `.fm` Name Function Magic (***N/A***)
-*Not use in Rouhe Highlighter*
+### `.fm` Name Function Magic
+*Not use in Rouge Highlighter*
 ### `.py` Name Property (CSS)
 In the example below, the token is property name `margin`
 ```css
@@ -570,8 +569,12 @@ In the example below, the token is the namespace name `test`
 ```cpp
 namespace test { int test_val = 500; }
 ```
-### `.nx` Name Other (***N/A***)
-*Currently no test available*
+### `.nx` Name Other (JavaScript)
+Use as fallback when a word cannot be identified.
+In the example below, the token is the word `unknown`
+```javascript
+unknown object { test: "Lorem Ipsum" }
+```
 ### `.nt` Name Tag (HTML)
 In the example below, the token is the tag name `style`
 ```html
@@ -614,7 +617,7 @@ In the example below, the token is the ecaped character `\n`
 char* test = "hello\nworld!";
 ```
 ### `.err` Error (Python)
-In the example below, the token is the whole line (normally rendered with an red wavy underline)
+Github doesn't examine code so cannot highlight error(s) but normally the token is the whole line (rendered with a red wavy underline)
 ```python
 !.....................
 ```
