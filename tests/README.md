@@ -37,8 +37,8 @@ Since all tokens isn't used in one single language, the tests are written in mul
 | .gp | Generic Prompt | --- | Same as `.g` |
 | .gs | Generic Strong | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gs.md) |
 | .gu | Generic Subheading | Markdown | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/markdown/gu.md) |
-| .gt | Generic Traceback | --- | [Check token representation](https://github.com/BenSouchet/sorbus/tree/main/tests#ides-representation) |
-| .gl | Generic Lineno | --- | [Check token representation](https://github.com/BenSouchet/sorbus/tree/main/tests#ides-representation) |
+| .gt | Generic Traceback | --- | [Check token representation](https://github.com/BenSouchet/sorbus/tree/main/tests#gt-generic-traceback-text) |
+| .gl | Generic Lineno | --- | [Check token representation](https://github.com/BenSouchet/sorbus/tree/main/tests#gl-generic-lineno-text) |
 | .k | Keyword | ***N/A*** | ***N/A*** |
 | .kc | Keyword Constant | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kc.js) |
 | .kd | Keyword Declaration | JavaScript | [File](https://github.com/BenSouchet/sorbus/blob/main/tests/javascript/kd.js) |
