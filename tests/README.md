@@ -262,8 +262,11 @@ In the example below, the token is the special comment word `@param`
 * @param  test  simply a param to test
 */
 ```
-### `.g` Generic (***N/A***)
-*Currently no test available*
+### `.g` Generic (text)
+In the example below, the token is the whole text
+<hr>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu metus, rutrum id tincidunt eget, sodales non ligula. Pellentesque eleifend, libero vitae lobortis placerat, mi sem blandit neque, id blandit metus ante ac eros.
+<hr>
 ### `.gd` Generic Deleted (diff)
 In the example below, the token is the whole line
 ```diff
@@ -285,7 +288,7 @@ In the example below, the token is the word `**test**` (normally rendered in bol
 ### `.gu` Generic Subheading (Markdown)
 In the example below, the token is the header `**test**` (normally rendered in bold, with big font-size)
 ## Test
-### `.gt` Generic Traceback (***N/A***)
+### `.gt` Generic Traceback (text)
 In the example below, the whole text is the token
 ```text
 Traceback (most recent call last):
@@ -295,8 +298,8 @@ Traceback (most recent call last):
     print(unknown_test_var)
 NameError: name 'unknown_test_var' is not defined
 ```
-### `.gl` Generic Lineno (***N/A***)
-*Currently no test available*
+### `.gl` Generic Lineno (text)
+https://github.com/BenSouchet/sorbus/blob/58aff633be1ff3cf2815104a54241cca51106d21/tests/generic/gl.txt#L1-L5
 ### `.k` Keyword (***N/A***)
 *Currently no test available*
 ### `.kc` Keyword Constant (JavaScript)
