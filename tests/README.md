@@ -300,6 +300,7 @@ Traceback (most recent call last):
 NameError: name 'unknown_test_var' is not defined
 ```
 ### `.gl` Generic Lineno (text)
+In the example below, the token is the lines numbers on the left side
 https://github.com/BenSouchet/sorbus/blob/58aff633be1ff3cf2815104a54241cca51106d21/tests/generic/gl.txt#L1-L5
 ### `.k` Keyword (***N/A***)
 *Currently no test available*
