@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.inner {
+  max-width: 1000px;
+}
+
+#header_wrap {
+  background: #3e4046;
+  background: linear-gradient(180deg, #373940, #3e4046);
+}
+
+#main_content_wrap {
+  background-color: #212327;
+}
