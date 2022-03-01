@@ -134,14 +134,14 @@ Theme used: [**Monokai Pro**](https://monokai.pro/)
 | .cs | <img width="336" alt="Result image of token Comment Special" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/java/intellijidea/cs.png"> |
 | .g | ***N/A*** |
 | .gd | <img width="336" alt="Result image of token Generic Deleted" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/diff/vscode/gd.png"> |
-| .ge | <img width="336" alt="Result image of token Generic Emph" src=""> |
+| .ge | <img width="336" alt="Result image of token Generic Emph" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/ge.png"> |
 | .gr | ***N/A*** |
-| .gh | <img width="336" alt="Result image of token Generic Heading" src=""> |
+| .gh | <img width="336" alt="Result image of token Generic Heading" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/gh.png"> |
 | .gi | <img width="336" alt="Result image of token Generic Inserted" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/diff/vscode/gi.png"> |
 | .go | ***N/A*** |
 | .gp | ***N/A*** |
-| .gs | <img width="336" alt="Result image of token Generic Strong" src=""> |
-| .gu | <img width="336" alt="Result image of token Generic Subheading" src=""> |
+| .gs | <img width="336" alt="Result image of token Generic Strong" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/gs.png"> |
+| .gu | <img width="336" alt="Result image of token Generic Subheading" src="https://raw.githubusercontent.com/BenSouchet/sorbus/main/tests/results/markdown/github/gu.png"> |
 | .gt | ***N/A*** |
 | .gl | ***N/A*** |
 | .k | ***N/A*** |
