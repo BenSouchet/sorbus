@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+@import "highlighter/sorbus";
+
+html {
+  background: #1c1c1c;
+}
+
 .inner {
   max-width: 1000px;
   padding: 40px;
