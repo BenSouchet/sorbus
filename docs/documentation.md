@@ -7,7 +7,7 @@
 3. In your main SCSS file, import the color palette you want tu use, followed by an import to the sorbus file:
 ```scss
 /// In this example we use the Solarized Dark color palette
-@import "highlighter/base16/solarized-dark";
+@import "highlighter/palettes/solarized-dark";
 @import "highlighter/sorbus";
 ```
 If you don't import a color palette the default one (`rowan.scss`) is used automatically.
@@ -15,6 +15,7 @@ If you don't import a color palette the default one (`rowan.scss`) is used autom
 ## Included color palettes
 
 To avoid unused data in your project, Sorbus is shipped (by design) with only 4 color palettes:
+
 | Rowan | Monokai | Solarized | Solarized Dark |
 |:-----:|:-------:|:---------:|:--------------:|
 |       |         |           |                |
@@ -28,20 +29,20 @@ The palettes SCSS files are located in the `palettes/` folder at the root of thi
 
 ## Create you own color palette
 
-Want to create your own palette, easy follow the steps:
+Want to create your own palette, it's easy, follow these simple steps:
 
-1. After you copied the `highlighter/` folder in you project SCSS directory, go to the subfolder `base16/`.
+1. After you copied the `highlighter/` folder in you project SCSS directory, go to the subfolder `palettes/`.
 2. Copy an existing color palette file and rename it to your preference.
 3. Open the file and edit the color HEX values.
 4. In your main SCSS file change the color palette you imported by the name of the new color palette you created. And it's done!
 
-To understand utility of each color variables please check the [Styling Guidelines]().
+To understand utility of each color variables please check the [Styling Guidelines](./styling_guidelines.md).
 
 ## Difference with Base16 project (from Chris Kempson)
 
-Sorbus use base16 color palettes for generating the final highlighter theme, this is inspired by the [Base16 project](https://github.com/chriskempson/base16) created by [Chris Kempson](https://github.com/chriskempson).
-But there is one major difference, the styling guidelines aren't the same.  
-Check [this page]() to see the Styling guidelines of Sorbus base16 color palettes (there is a comparaison with the Chris Kempson Base16 project guidelines).
+Sorbus use color palettes (16 colors) for generating the final highlighter theme, this is inspired by the [Base16 project](https://github.com/chriskempson/base16) created by [Chris Kempson](https://github.com/chriskempson).  
+But there is **one major difference**, the styling guidelines aren't the same.  
+Check [this page](./styling_guidelines.md) to see the Styling guidelines of Sorbus color palettes (there is a comparaison with the Chris Kempson Base16 project guidelines).
 
 ## Origin of Sorbus
 

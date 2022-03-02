@@ -1,7 +1,7 @@
 # Sorbus 🌿🔴
-Sorbus is a SCSS Auto-Theme using [base16 palettes](https://github.com/chriskempson/base16) for the [Rouge Higlighter](https://github.com/rouge-ruby/rouge).
+Sorbus is a SCSS Auto-Theme for the [Rouge Higlighter](https://github.com/rouge-ruby/rouge).
 
-Easily create a full Rouge Higlighter SCSS Theme by only defining 16 colors!
+Easily create a full Rouge Higlighter SCSS Theme by **only defining 16 colors**!
 
 ## How to use
 
@@ -9,7 +9,7 @@ Easily create a full Rouge Higlighter SCSS Theme by only defining 16 colors!
 2. In your main SCSS file, import the color palette you want tu use, followed by an import to the sorbus file:
 ```scss
 /// In this example we use the Solarized Dark color palette
-@import "highlighter/base16/solarized-dark";
+@import "highlighter/palettes/solarized-dark";
 @import "highlighter/sorbus";
 ```
 If you don't import a color palette the default one (`rowan.scss`) will be used automatically.
@@ -25,11 +25,11 @@ Rowan is the default color palette, this means that if you avoid (or forget) to 
 
 ## More color palettes
 
-In the `palettes/` folder at the root if this repository you will find lots of cool **base16** color palettes you can use.
+In the `palettes/` folder at the root if this repository you will find lots of cool color palettes you can use.
 
 ## Create you own color palette
 
-1. After you copied the `highlighter/` folder in you project SCSS directory, go to the subfolder `base16/`
+1. After you copied the `highlighter/` folder in you project SCSS directory, go to the subfolder `palettes/`
 2. Copy an existing color palette file and rename it to your preference
 3. Open the file and edit the color HEX values
 4. In your main SCSS file change the color palette you import by the name of the new color palette you created

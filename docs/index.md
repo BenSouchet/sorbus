@@ -1,5 +1,5 @@
 Easily create a full Rouge Higlighter SCSS Theme by defining only 16 colors 🎨.  
-You just created a Jekyll website (or Github Pages), this project will bring your `code block` to live 🎉.
+If you just created a Jekyll website (or Github Pages), this project will bring your `code block` to live 🎉.
 
 ## How to use
 
@@ -8,7 +8,7 @@ You just created a Jekyll website (or Github Pages), this project will bring you
 3. In your main SCSS file, import the color palette you want tu use, followed by an import to the sorbus file:
 ```scss
 /// In this example we use the Solarized Dark color palette
-@import "highlighter/base16/solarized-dark";
+@import "highlighter/palettes/solarized-dark";
 @import "highlighter/sorbus";
 ```
 If you don't import a color palette the default one (`rowan.scss`) is used automatically.

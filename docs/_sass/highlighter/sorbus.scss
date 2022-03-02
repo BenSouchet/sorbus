@@ -6,7 +6,7 @@
 // - https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
 
 // Importing default palette
-@import "base16/rowan";
+@import "palettes/rowan";
 
 // Highlight Block
 .highlight {
@@ -121,15 +121,15 @@
     // Literal String Heredoc
     .sh {  color: $base0D; font-weight: bold; }
     // Literal String Interpol
-    .si {  color: $base08; }
+    .si {  color: $base09; }
     // Literal String Other
     .sx {  color: $base09; }
     // Literal String Regex
-    .sr {  color: $base08; }
+    .sr {  color: $base09; }
     // Literal String Single
     .s1 {  color: $base0C; }
     // Literal String Symbol
-    .ss {  color: $base0A; }
+    .ss {  color: $base09; }
     // Literal Number
     .m {   color: $base0F; }
     // Literal Number Binary
