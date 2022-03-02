@@ -39,22 +39,27 @@ code {
 
 #header_wrap {
   background: #721919;
-  background: linear-gradient(180deg, #000000, #721919);
+  background-image: url("../images/pattern.png"), linear-gradient(180deg, #000000, #721919);
+  background-repeat: repeat, no-repeat;
+  background-position: center center, top left;
 }
 
 #header_wrap .inner {
   padding: 40px;
   background: #1c0a0a;
-  background: linear-gradient(180deg, #1c0a0a, #9d1d1d);
+  background-image: url("../images/pattern.png"), linear-gradient(180deg, #1c0a0a, #9d1d1d);
+  background-repeat: repeat, no-repeat;
+  background-position: center center, top left;
 }
 
 #project_title_wrapper {
-  color: unset;
+  color: white;
   font-size: 2.625rem;
   height: 1.5em;
 	display: flex;
 	align-items: center;
 	column-gap: 10px;
+  text-underline-offset: 0.14em;
 }
 
 #project_title_wrapper img {
@@ -85,7 +90,7 @@ code {
 
 #downloads {
   right: 20px;
-  background: url(../images/icon_download.png) #f3f3f3 no-repeat 0% 90%;
+  background: url("../images/icon_download.png") #f3f3f3 no-repeat 0% 90%;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	padding: 14px 14px 0 0;
