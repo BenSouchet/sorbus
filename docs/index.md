@@ -1,4 +1,4 @@
-Easily create a full Rouge Higlighter SCSS Theme by defining only 16 colors 🎨
+Easily create a full Rouge Higlighter SCSS Theme by defining only 16 colors 🎨.  
 You just created a Jekyll website (or Github Pages), this project will bring your `code block` to live 🎉.
 
 ## How to use
