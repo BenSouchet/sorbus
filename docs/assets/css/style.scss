@@ -48,6 +48,21 @@ code {
   background: linear-gradient(180deg, #1c0a0a, #9d1d1d);
 }
 
+#project_title a {
+  color: unset;
+  display: block;
+}
+
+#project_title a img {
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+  
+
 #main_content_wrap {
   background-color: #e1e1e1;
   border: none;
