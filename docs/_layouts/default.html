@@ -20,7 +20,7 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <h1 id="project_title"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+          <h1 id="project_title"><a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/sorbus.png' | relative_url }}" /> {{ site.title | default: site.github.repository_name }}</a></h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
@@ -43,9 +43,9 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by 
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by
           {% for maintainer in site.maintainers %}
-          <a href="{{ maintainer.url }}" target="_blank" rel="external noopener noreferrer">{{ maintainer.name }}</a> 
+          <a href="{{ maintainer.url }}" target="_blank" rel="external noopener noreferrer">{{ maintainer.name }}</a>
           {% endfor %}
           - <a href="{{ site.license.url }}" target="_blank">License {{ site.license.name }}</a></p>
         {% endif %}
