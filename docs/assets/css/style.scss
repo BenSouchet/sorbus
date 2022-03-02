@@ -48,9 +48,13 @@ code {
   background: linear-gradient(180deg, #1c0a0a, #9d1d1d);
 }
 
-#project_title_wrapper #project_title {
+#project_title_wrapper {
   color: unset;
-  display: block;
+  font-size: 2.625rem;
+}
+
+#project_title {
+  display: inline-block;
 }
 
 #project_title_wrapper img {
@@ -60,6 +64,7 @@ code {
   padding: 0;
   border: none;
   box-shadow: none;
+  display: inline-block;
 }
 
 
