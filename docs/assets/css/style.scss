@@ -51,10 +51,10 @@ code {
 #project_title_wrapper {
   color: unset;
   font-size: 2.625rem;
-}
-
-#project_title {
-  display: inline-block;
+  height: 1.5em;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
 }
 
 #project_title_wrapper img {
@@ -64,7 +64,6 @@ code {
   padding: 0;
   border: none;
   box-shadow: none;
-  display: inline-block;
 }
 
 
