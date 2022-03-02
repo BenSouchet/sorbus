@@ -9,6 +9,10 @@ html {
   background: #1c1c1c;
 }
 
+body {
+  font-size: 1.05rem;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -16,6 +20,10 @@ h1 {
 h2 {
   font-size: 1.6rem;
   padding-top: 12px;
+}
+
+.highlight {
+  font-size: 1rem;
 }
 
 code {
