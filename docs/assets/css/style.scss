@@ -48,6 +48,10 @@ td {
   border: 1px solid #7926265e;
 }
 
+td img {
+  margin: 0;
+}
+
 tr:last-of-type > td:first-child {
   border-bottom-left-radius: 5px;
 }
