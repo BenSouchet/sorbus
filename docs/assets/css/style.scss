@@ -13,6 +13,11 @@ body {
   font-size: 1.05rem;
 }
 
+img {
+  box-sizing: border-box;
+  display: block;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -40,6 +45,14 @@ th {
 td {
   padding: 8px;
   vertical-align: middle;
+  border: 1px solid #7926265e;
+}
+
+tr:last-of-type > td:first-child {
+  border-bottom-left-radius: 5px;
+}
+tr:last-of-type > td:last-child {
+  border-bottom-right-radius: 5px;
 }
 
 .highlight {
